@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"0386631b01b58eb4","type":"text","text":"Inicio","x":-280,"y":-60,"width":130,"height":60},
+		{"id":"b1d412268d80d323","type":"text","text":"El bibliotecario se autentica en el sistema","x":-60,"y":-60,"width":250,"height":60},
+		{"id":"1593ddcff32031a8","type":"file","file":"Flujos/Prestamo de libros/Datos necesarios del lector.md","x":71,"y":120,"width":400,"height":400},
+		{"id":"59e8a233ca1e3bf7","type":"text","text":"Solicita los datos personales al lector interesado","x":271,"y":-70,"width":300,"height":80}
+	],
+	"edges":[
+		{"id":"ffff058b94860f2c","fromNode":"0386631b01b58eb4","fromSide":"right","toNode":"b1d412268d80d323","toSide":"left"},
+		{"id":"3b28bc2de9b59d7a","fromNode":"b1d412268d80d323","fromSide":"right","toNode":"59e8a233ca1e3bf7","toSide":"left"},
+		{"id":"322311e5cddab4d9","fromNode":"59e8a233ca1e3bf7","fromSide":"bottom","toNode":"1593ddcff32031a8","toSide":"top","toEnd":"none"}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"7576f8a2f7abe003","type":"text","text":"Inicio","x":-460,"y":-30,"width":250,"height":60},
+		{"id":"bc0afc2084295675","type":"text","text":"El lector se ingresa a la biblioteca y pregunta por uno libro","x":-160,"y":-55,"width":250,"height":110},
+		{"id":"ed6ae605749ec79a","type":"text","text":"La bibliotecaria busca el libro solicitado en el sistema","x":160,"y":-42,"width":250,"height":85},
+		{"id":"af36a445797ee626","type":"text","text":"Se encuentran el libro","x":520,"y":100,"width":250,"height":60},
+		{"id":"67fca9a4c60ad923","type":"text","text":"No se encuentran el libro","x":524,"y":-154,"width":250,"height":60},
+		{"id":"59e4e7b3b1f10ede","type":"text","text":"Fin","x":1040,"y":1,"width":250,"height":60},
+		{"id":"3a8a18e40a59c8dd","type":"text","text":"Se procede a crear la solicitud de préstamo del libro en el sistema","x":520,"y":260,"width":250,"height":92}
+	],
+	"edges":[
+		{"id":"45c14128a5d40731","fromNode":"7576f8a2f7abe003","fromSide":"right","toNode":"bc0afc2084295675","toSide":"left"},
+		{"id":"e3528747578ad77c","fromNode":"bc0afc2084295675","fromSide":"right","toNode":"ed6ae605749ec79a","toSide":"left"},
+		{"id":"ae27ef1c15926e72","fromNode":"ed6ae605749ec79a","fromSide":"right","toNode":"af36a445797ee626","toSide":"left"},
+		{"id":"cdbd638394b7873c","fromNode":"ed6ae605749ec79a","fromSide":"right","toNode":"67fca9a4c60ad923","toSide":"left"},
+		{"id":"b43c09588dfc1edb","fromNode":"67fca9a4c60ad923","fromSide":"right","toNode":"59e4e7b3b1f10ede","toSide":"left"},
+		{"id":"21948ce90e2ef20a","fromNode":"af36a445797ee626","fromSide":"bottom","toNode":"3a8a18e40a59c8dd","toSide":"top"},
+		{"id":"02e01e6bb8c147cb","fromNode":"3a8a18e40a59c8dd","fromSide":"right","toNode":"59e4e7b3b1f10ede","toSide":"left"}
+	]
+}

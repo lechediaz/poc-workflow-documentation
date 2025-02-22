@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "e126f00b00808fdf",
+    "type": "split",
+    "children": [
+      {
+        "id": "06d2c86fb55c64c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f3e2d6de3d0528a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Flujos/Prestamo de libros/Flujo de préstamos de libros.canvas",
+                "viewState": {
+                  "x": 415,
+                  "y": 99,
+                  "zoom": -0.5476031002131119
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Flujo de préstamos de libros"
+            }
+          },
+          {
+            "id": "9cba7fb02cbfc3a2",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Flujos/Prestamo de libros/Crear solicitud de préstamo.canvas",
+                "viewState": {
+                  "x": 145.5,
+                  "y": 225,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Crear solicitud de préstamo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd20410abf1add17",
+    "type": "split",
+    "children": [
+      {
+        "id": "62bed7cc77adfbaf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fdf5bace0f4d722b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d69ae489aa33d9b3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a9d71908c642def4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4be02f6b087881a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ffd97c6c3e55e74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbd6348971c31e8b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Flujos/Prestamo de libros/Flujo de préstamos de libros.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Flujo de préstamos de libros"
+            }
+          },
+          {
+            "id": "a887b07fcc5b10d0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Flujos/Prestamo de libros/Flujo de préstamos de libros.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Flujo de préstamos de libros"
+            }
+          },
+          {
+            "id": "c21b8b7f03a3cd70",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "25fa6ae46c45eb8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Flujos/Prestamo de libros/Flujo de préstamos de libros.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Flujo de préstamos de libros"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7f3e2d6de3d0528a",
+  "lastOpenFiles": [
+    "Flujos/Prestamo de libros/Crear solicitud de préstamo.canvas",
+    "Flujos/Prestamo de libros/Flujo de préstamos de libros.canvas",
+    "Flujos/Prestamo de libros/Datos necesarios del lector.md",
+    "Actividades que se realizan.md",
+    "Ejemplo.canvas",
+    "Flujos/Reacomodación de libros",
+    "Flujos",
+    "Flujos/Prestamo de libros"
+  ]
+}

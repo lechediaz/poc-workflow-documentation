@@ -14,6 +14,14 @@ El ejemplo de documentar usando Obsidian se encuentra en la carpeta [with-obsidi
 
 No requiere más que abrir la carpeta con el programa y no es dificil de usar. Puedes hacer [click aquí para descargar Obsidian](https://obsidian.md/download).
 
+Estas son algunas imágenes que dan una idea del uso del programa:
+
+*Usando Obsidian*
+![Usando Obsidian](<images/Usando Obsidian.png>)
+
+*Flujo exportado*
+![Flujo exportado](<images/Flujo de préstamos de libros.png>)
+
 ### Con Aplicación Web Personalizada
 
 Esta aplicación web personalizada permite crear y mostrar flujos de trabajo a partir de archivos JSON. Quizá requiera un poco más de conocimiento técnico para ejecutarla, pero abre grandes posibilidades de mejora y personalización.

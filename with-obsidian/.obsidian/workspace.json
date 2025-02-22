@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "06d2c86fb55c64c7",
+        "id": "5c89a7d4684c0a0e",
         "type": "tabs",
         "children": [
           {
-            "id": "7f3e2d6de3d0528a",
+            "id": "c8b45fe4c56254f7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Flujos/Prestamo de libros/Flujo de préstamos de libros.canvas",
-                "viewState": {
-                  "x": 415,
-                  "y": 99,
-                  "zoom": -0.5476031002131119
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Flujo de préstamos de libros"
-            }
-          },
-          {
-            "id": "9cba7fb02cbfc3a2",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Flujos/Prestamo de libros/Crear solicitud de préstamo.canvas",
-                "viewState": {
-                  "x": 145.5,
-                  "y": 225,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Crear solicitud de préstamo"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -114,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flujos/Prestamo de libros/Flujo de préstamos de libros.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Flujo de préstamos de libros"
+              "title": "Backlinks"
             }
           },
           {
@@ -133,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flujos/Prestamo de libros/Flujo de préstamos de libros.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Flujo de préstamos de libros"
+              "title": "Outgoing links"
             }
           },
           {
@@ -162,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flujos/Prestamo de libros/Flujo de préstamos de libros.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Flujo de préstamos de libros"
+              "title": "Outline"
             }
           }
         ]
@@ -188,10 +161,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f3e2d6de3d0528a",
+  "active": "c8b45fe4c56254f7",
   "lastOpenFiles": [
-    "Flujos/Prestamo de libros/Crear solicitud de préstamo.canvas",
     "Flujos/Prestamo de libros/Flujo de préstamos de libros.canvas",
+    "Flujos/Prestamo de libros/Crear solicitud de préstamo.canvas",
     "Flujos/Prestamo de libros/Datos necesarios del lector.md",
     "Actividades que se realizan.md",
     "Ejemplo.canvas",

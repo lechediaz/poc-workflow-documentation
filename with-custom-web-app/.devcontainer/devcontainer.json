@@ -4,5 +4,13 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-  "remoteUser": "node"
+	"remoteUser": "node",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"burkeholland.simple-react-snippets",
+				"bradlc.vscode-tailwindcss"
+			]
+		}
+	}
 }

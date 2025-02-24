@@ -1,0 +1,51 @@
+{
+  "id": "bdd75bfc-e9a2-40aa-a8b3-f96996bcad57",
+  "title": "Flujo de préstamos de libros",
+  "steps": [
+    {
+      "id":  "69dafdd6-4fdf-48c7-98e1-433fdbe21c53",
+      "type": "start",
+      "text": "Inicio"
+    },
+    {
+      "id":  "cac0e9bb-2fd2-40a3-b414-f398be17d12e",
+      "text": "El lector ingresa a la biblioteca y pregunta por un libro."
+    },
+    {
+      "id": "b25c5e9d-9bb3-469f-ba17-780f28a669c1",
+      "type": "if",
+      "text": "La bibliotecaria busca el libro solicitado en el sistema."
+    },
+    {
+      "id": "bb2e5c0d-5f01-46b2-b7f8-9f06f58baf44",
+      "text": "Se procede a crear la solicitud de préstamo del libro en el sistema."
+    },
+    {
+      "id":  "d6d302b7-2cea-47f8-a34e-05349fa80386",
+      "type": "end",
+      "text": "Fin"
+    }
+  ],
+  "relations": [
+    {
+      "id": "7a3d63df-ee6f-440c-b1a7-79b59ba2f9c1",
+      "from": "69dafdd6-4fdf-48c7-98e1-433fdbe21c53",
+      "to": "cac0e9bb-2fd2-40a3-b414-f398be17d12e"
+    },
+    {
+      "id": "2e348a35-4619-4f58-957f-f4cbd5e16305",
+      "from": "cac0e9bb-2fd2-40a3-b414-f398be17d12e",
+      "to": "b25c5e9d-9bb3-469f-ba17-780f28a669c1"
+    },
+    {
+      "id": "a43b69a3-3c11-462a-8095-d57d3fa3b03a",
+      "from": "b25c5e9d-9bb3-469f-ba17-780f28a669c1",
+      "to": "d6d302b7-2cea-47f8-a34e-05349fa80386"
+    },
+    {
+      "id": "a2c50eec-d2a1-44f9-8862-ecb772caecc9",
+      "from": "bb2e5c0d-5f01-46b2-b7f8-9f06f58baf44",
+      "to": "d6d302b7-2cea-47f8-a34e-05349fa80386"
+    }
+  ]
+}

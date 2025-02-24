@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"0386631b01b58eb4","type":"text","text":"Inicio","x":-280,"y":-60,"width":130,"height":60},
 		{"id":"b1d412268d80d323","type":"text","text":"El bibliotecario se autentica en el sistema","x":-60,"y":-60,"width":250,"height":60},
-		{"id":"1593ddcff32031a8","type":"file","file":"Flujos/Prestamo de libros/Datos necesarios del lector.md","x":71,"y":120,"width":400,"height":400},
+		{"id":"1593ddcff32031a8","type":"file","file":"Flujos/Crear solicitud de préstamo/Datos necesarios del lector.md","x":71,"y":120,"width":400,"height":400},
 		{"id":"59e8a233ca1e3bf7","type":"text","text":"Solicita los datos personales al lector interesado","x":271,"y":-70,"width":300,"height":80}
 	],
 	"edges":[

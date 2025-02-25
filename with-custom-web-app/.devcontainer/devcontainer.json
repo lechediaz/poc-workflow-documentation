@@ -1,16 +1,28 @@
-// See https://containers.dev/implementors/json_reference/ for configuration reference
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-	"name": "Next.js",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-	"remoteUser": "node",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"burkeholland.simple-react-snippets",
-				"bradlc.vscode-tailwindcss"
-			]
-		}
-	}
+    "name": "Next.js",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:dev-22",
+    "postCreateCommand": "npm install",
+    "remoteUser": "node",
+    "portsAttributes": {
+        "3000": {
+            "label": "Application",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "forwardPorts": [
+        3000
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "ms-vscode-remote.remote-containers",
+                "burkeholland.simple-react-snippets",
+                "bradlc.vscode-tailwindcss"
+            ]
+        }
+    }
 }
